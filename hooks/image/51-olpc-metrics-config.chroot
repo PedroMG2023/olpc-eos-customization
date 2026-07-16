@@ -85,7 +85,7 @@ es_olpc_roatan="es_olpc_roatan"
 es_olpc_BO_CEAL="26_es_olpc_BO_1"
 es_olpc_GT="26_es_olpc_GT_1"
 es_olpc_2026="es_olpc_2026"
-es_olpc_2026="es_olpc_2027"
+es_olpc_2027="es_olpc_2027"
 
 # Array con las personalities permitidas
 ALLOWED_PERSONALITIES=(
@@ -132,6 +132,7 @@ personality_message() {
     "$es_olpc_BO_CEAL") printf '%s\n' "Imagen detectada: OLPC Bolivia" ;;
     "$es_olpc_GT") printf '%s\n' "Imagen detectada: FZT Guatemala" ;;
     "$es_olpc_2026") printf '%s\n' "Imagen detectada: OLPC 2026 es" ;;
+    "$es_olpc_2027") printf '%s\n' "Imagen detectada: OLPC 2027 es" ;;
     *) return 1 ;;
   esac
 }
